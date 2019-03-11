@@ -1,0 +1,24 @@
+state={
+	id=790
+	name="STATE_790"
+
+	state_category = rural
+
+	history = {
+		owner = GEO
+		add_core_of = GEO
+		add_core_of = AZR
+
+		buildings = {
+		infrastructure = 4
+		industrial_complex = 2
+		air_base 2
+		}
+	}
+
+	provinces={
+		1450 6763 11645 13221
+	}
+	manpower=217264
+	buildings_max_level_factor=1.000
+}

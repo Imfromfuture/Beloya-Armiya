@@ -1,0 +1,24 @@
+state={
+	id=789
+	name="STATE_789"
+
+	state_category = town
+
+	history = {
+		owner = GEO
+		add_core_of = GEO
+		add_core_of TUR
+
+		buildings = {
+		infrastructure = 5
+		industrial_complex = 1
+		arms_factory = 2
+	}
+}
+
+	provinces={
+		789 6991 7454 10403 10472 12441 13218 
+	}
+	manpower=792612
+	buildings_max_level_factor=1.000
+}
