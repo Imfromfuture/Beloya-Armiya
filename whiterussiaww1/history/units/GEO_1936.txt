@@ -1,0 +1,56 @@
+﻿division_template = {
+	name = "Rifle Division"				# Infantry Division	
+	division_names_group = GEO_INF_01
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+	##### Eesti Ülemjuhatus #####
+	division = { # "1st Rifle Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 772
+		division_template = "Rifle Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GEO" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = { # "2nd Rifle Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 6763
+		division_template = "Rifle Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GEO" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	##### No Naval OOB -- 2 SSs in 1937 #####
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = GEO"
+		}
+		requested_factories = 1
+		progress = 0.88
+		efficiency = 100
+	}
+}

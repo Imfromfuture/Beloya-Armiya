@@ -1,4 +1,4 @@
-﻿capital = 231 #Tbilisi
+capital = 231 #Tbilisi
 
 oob = "GEO_1936"
 
@@ -41,11 +41,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 25
+			popularity = 75
 		}
 		
 		communism = {
-			popularity = 75
+			popularity = 25
 		}
 	}
 }
