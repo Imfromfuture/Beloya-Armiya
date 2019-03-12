@@ -1,6 +1,6 @@
 state={
-	id=231
-	name="STATE_231"
+	id=793
+	name="STATE_793"
 
 	history={
 		owner = GEO
@@ -33,7 +33,7 @@ state={
 	}
 
 	provinces={
-		654 772 1599 3653 3656 3658 4605 6436 6669 6671 9626 9702 12309 
+		672 11599 11617 11647 
 	}
 	manpower=2949413
 	buildings_max_level_factor=1.000
